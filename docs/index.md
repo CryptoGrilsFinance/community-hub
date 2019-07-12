@@ -4,7 +4,7 @@
 
 The SpankChain Community Hub is a public resource containing the content and resources needed to successfully participate on the SpankChain platform and/or in the adjacent cryptosphere.
 
-This is a collaborative community project. If you wish to suggest an improvement or to contribute to this site, please create an [Issue](https://github.com/spankchain/community-hub/issues) or submit a [Pull Request](https://github.com/spankchain/community-hub/pulls) at [https://github.com/spankchain/community](https://github.com/spankchain/community-hub).
+This is a collaborative community project. If you wish to suggest an improvement or to contribute to this site, please create an [Issue](https://github.com/spankchain/community-hub/issues) or submit a [Pull Request](https://github.com/spankchain/community-hub/pulls) at [https://github.com/spankchain/community-hub](https://github.com/spankchain/community-hub).
 
 For our website visit [spankchain.com](https://spankchain.com).
 
