@@ -1,0 +1,42 @@
+site_name: 'The SpankChain Community Hub'
+repo_name: 'spankchain/community-hub'
+repo_url: 'https://github.com/spankchain/community-hub'
+site_description: 'The SpankChain Community Hub'
+nav:
+    - Home: 'index.md'
+    - Platform:
+      - SpankBank: 'platform/spankbank/spankbank.md'
+      - SpankPay: 'platform/spankpay/spankpay.md'
+      - SPANK.live: 'platform/spanklive/spanklive.md'
+      - SpankClips: 'platform/spankclips/spankclips.md'
+    - Design: 'design/index.md'
+    - Crypto Resources: 'crypto/index.md'
+    - Blog Posts: 'blog/blogs.md'
+    - Videos:
+        - Tutorials: 'videos/tutorials.md'
+    - Tokens and Contracts: 'contracts/contracts.md'
+    - Press:
+        - Press Kit: 'press/presskit.md'
+        - Press Mentions: 'press/mentions.md'
+theme:
+  name: 'material'
+  palette:
+        primary: 'pink'
+        accent: 'purple'
+  logo: 'images/white-S-logo.png'
+  favicon: 'images/favicon.ico'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/spankchain'
+    - type: 'medium'
+      link: 'https://www.medium.com/spankchain'
+    - type: 'reddit'
+      link: 'https://www.reddit.com/r/SpankChain/'
+    - type: 'twitter'
+      link: 'https://twitter.com/SpankChain'
+    
