@@ -111,7 +111,7 @@ _Coming Soon!_
 
 ___
 
-## Communication channels
+## Communication Channels
 
 SpankChain Community Chat - [SpankChain Discord](https://discord.gg/9mmTgxR)
 

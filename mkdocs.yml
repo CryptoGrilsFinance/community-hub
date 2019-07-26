@@ -10,7 +10,8 @@ nav:
       - SPANK.live: 'platform/spanklive/spanklive.md'
       - SpankClips: 'platform/spankclips/spankclips.md'
     - Design: 'design/index.md'
-    - Crypto Resources: 'crypto/index.md'
+    - Crypto Resources:
+      - Ethereum New User Guide: 'crypto/eth-new-user-guide.md'
     - Blog Posts: 'blog/blogs.md'
     - Videos:
         - Tutorials: 'videos/tutorials.md'
