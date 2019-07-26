@@ -28,10 +28,6 @@ You can use the menu to the left to navigate the site. Here is a brief summary o
     - Visual assets for SpankChain
     - Logos and the beginnings of the style guide
 
-- **<u>Blog posts</u>**
-
-    - Index and links to all of our blog posts
-
 - **<u>Videos</u>**
 
     - Links to all our videos -- including all tutorial and walkthrough videos
@@ -42,9 +38,7 @@ You can use the menu to the left to navigate the site. Here is a brief summary o
 
 - **<u>Press</u>**
 
-    - SpankChain Press Kit for Press/Media
     - SpankChain media mentions
-    - Contact information for media/press inquiries
 
 ___
 
