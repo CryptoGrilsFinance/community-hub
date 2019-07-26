@@ -1,2 +1,0 @@
-# SpankChain Blog Posts
-
