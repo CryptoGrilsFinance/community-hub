@@ -17,7 +17,7 @@
 ---
 
 ### SpankBank - Merchant-Owned Credit System
-[**Etherscan**](https://etherscan.io/address/0x1ECB60873E495dDFa2a13A8F4140e490dd574E6F) | [**GitHub**](https://github.com/spankchain/spankbank) | [**Guides**](../platform/spankbank/spankbank.md)
+[**Etherscan**](https://etherscan.io/address/0x1ECB60873E495dDFa2a13A8F4140e490dd574E6F) | [**GitHub**](https://github.com/spankchain/spankbank) | [**Overview**](../platform/spankbank/spankbank.md)
 
 **Current Period**: 10
 

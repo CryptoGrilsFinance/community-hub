@@ -13,7 +13,8 @@
     - The amount of SPANK counted towards your stake will drop 5% each period _unless_ you choose to extend your stake when checking in.
     - Staking longer will allow more of your SPANK to be counted towards the stake. (See [SpankPoints](#spankpoints))
 
-
+!!! note
+    Full How-to Guides can be found here: [https://help.spankchain.com](https://spankchain.zendesk.com/hc/en-us/categories/360001952592-SpankBank)
 <hr>
 
 ## SpankBank Overview
