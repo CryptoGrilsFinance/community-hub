@@ -2,15 +2,18 @@
 
 New to Ethereum? You're in the right place! This guide will walk you through the necessary steps of getting onboarded to the Ethereum network.
 
-## Buy ETH
+## Buy and/or Earn ETH
 
-In order to interact with the Ethereum network, you will need to own Ether (ETH). The easiest way to acquire ETH is to [buy it on Gemini.](https://www.gemini.com)
+SPANK and BOOTY 🍑 are tokens on the Ethereum network. In order to interact with the Ethereum network, you will need to own Ether (ETH). Besides earning it on [SPANK.live](https://spank.live), the easiest way to acquire ETH is to [buy it on Gemini.](https://www.gemini.com)
 
 One important note is that you do not need to buy 1 full ETH. Ether is divisible down to 18 decimal places so you can buy fractions of it.
 
 ## Setup MetaMask
 
-Now that you have ETH, you will want to send it to a [wallet](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) of your choice to store it and use it on the network. Wallets setup accounts for you which are randomly generated 42 character long addresses starting with 0x. Accounts allow you to store and use ETH by generating [transactions](https://docs.ethhub.io/using-ethereum/transactions/) on the Ethereum network.
+If you've earned BOOTY 🍑 on [SPANK.live](https://spank.live), you essentially have ETH as BOOTY 🍑 gets converted to ETH upon withdrawal. Now that you have ETH, you will want to send it to a [wallet](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) of your choice to store it and use it on the network. Wallets setup accounts for you which are randomly generated 42 character long addresses starting with 0x. Accounts allow you to store and use ETH by generating [transactions](https://docs.ethhub.io/using-ethereum/transactions/) on the Ethereum network. 
+
+!!! note
+    _Never use SpankPay as your main Ethereum wallet!_
 
 We recommend first moving your ETH to the [MetaMask wallet](https://metamask.io/). MetaMask is a browser extension that allows you to interact with Ethereum [dapps](https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/) inside of Chrome, Brave, Firefox or Opera.
 
@@ -18,7 +21,7 @@ MetaMask has a nice video to help you get setup:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIGUC9JAAw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After MetaMask is setup, you now have your own wallet address (0x......). You can go to Gemini and send your acquired ETH to your new wallet address. This should take about a minute and you will see the ETH show up in your MetaMask wallet.
+After MetaMask is setup, you now have your own wallet address (0x......). You can go to your [SPANK.live](https://spank.live) SpankPay card and send your acquired BOOTY 🍑 to your new wallet address (remember it will automatically convert to ETH). Likewise with ETH if you just bought from Gemini. This should take about a minute and you will see the ETH show up in your MetaMask wallet.
 
 ## Setup Mobile Wallet (optional)
 
