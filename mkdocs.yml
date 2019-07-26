@@ -16,9 +16,7 @@ nav:
     - Videos:
         - Tutorials: 'videos/index.md'
     - Tokens and Contracts: 'contracts/contracts.md'
-    - Press:
-        - Press Kit: 'press/presskit.md'
-        - Press Mentions: 'press/mentions.md'
+    - Press: 'press/mentions.md'
 theme:
   name: 'material'
   palette:
