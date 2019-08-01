@@ -41,3 +41,7 @@
 **YNOT**: [Allie Eve Knox On Crypto, FOSTA and the Importance of Listening](https://www.ynot.com/allie-eve-knox-on-crypto-fosta-and-the-importance-of-listening/)
 
 **Breaker Mag**: [Skin in the Game: Uncovering the Adult Industry's Crypto Fetish](https://breakermag.com/skin-in-the-game-uncovering-the-adult-industrys-crypto-fetish/)
+
+**XBIZ**: [SpankChain Launches SpankPay Crypto Payment SOlution](https://www.xbiz.com/news/245794/spankchain-launches-spankpay-crypto-payment-solution)
+
+**Coindesk**: [SpankChain Launches Crypto Payments Service for Adult Content Providers](https://www.coindesk.com/spankchain-launches-crypto-payments-service-for-adult-content)
