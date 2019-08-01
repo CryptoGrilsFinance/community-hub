@@ -10,7 +10,7 @@
 ### BOOTY [🍑][2] - The SpankChain Stablecoin
 [**Etherscan**](https://etherscan.io/token/0x6b01c3170ae1efebee1a3159172cb3f7a5ecf9e5) | [**Radar Relay**](https://app.radarrelay.com/BOOTY/DAI)[⁽ⁱ⁾][3]
 
-**__Total Supply__**: 26,231
+**__Total Supply__**: 25,557
 
 **__Price__**: $1
 
@@ -19,7 +19,7 @@
 ### SpankBank - Merchant-Owned Credit System
 [**Etherscan**](https://etherscan.io/address/0x1ECB60873E495dDFa2a13A8F4140e490dd574E6F) | [**GitHub**](https://github.com/spankchain/spankbank) | [**Overview**](../platform/spankbank/spankbank.md)
 
-**Current Period**: 10
+**Current Period**: 11
 
 **Period End**: 08/01/2019 07:50:52am EDT
 
