@@ -70,3 +70,4 @@ If a staker stakes for 12 periods but doesn't opt to extend their stake during c
 |    7   | [1400](https://etherscan.io/tx/0xaefbd6d4cb5c6d1cd5109651ba9f4ae42b843e7614b984fe9cb3f75034ca583d) | [10,553.01](https://etherscan.io/tx/0x032e9cd9c2e281c17ddbd83bba821365fb0901da380edc66090c172069ec855e) |
 |    8   | [986](https://etherscan.io/tx/0xeec6519189354e57a623caa2acdb13402c85c9909aee8a46dddfbec8acaa8f7a) | -- |
 |    9   | [783](https://etherscan.io/tx/0x8fb738da9acc6aede6359a0102ae1f26938ebd34790a0888f98370671e7926b2) | -- |
+|   10   | [673.09](https://etherscan.io/tx/0xd3cf062b78f25e6c2c41998caa8f671bdaca658cfd6f555f9465cdd36c25fdcb) | -- |

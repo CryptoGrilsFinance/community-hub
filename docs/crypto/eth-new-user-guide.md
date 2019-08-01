@@ -4,7 +4,7 @@ New to Ethereum? You're in the right place! This guide will walk you through the
 
 ## Buy and/or Earn ETH
 
-SPANK and BOOTY 🍑 are tokens on the Ethereum network. In order to interact with the Ethereum network, you will need to own Ether (ETH). Besides earning it on [SPANK.live](https://spank.live), the easiest way to acquire ETH is to [buy it on Gemini.](https://www.gemini.com)
+SPANK and BOOTY 🍑 are tokens on the Ethereum network. In order to interact with the Ethereum network, you will need to own Ether (ETH). Besides earning it on [SPANK.live](https://spank.live), the easiest way to acquire ETH is to [buy it on Gemini](https://www.gemini.com) or a number of other exchanges.
 
 One important note is that you do not need to buy 1 full ETH. Ether is divisible down to 18 decimal places so you can buy fractions of it.
 
@@ -12,7 +12,7 @@ One important note is that you do not need to buy 1 full ETH. Ether is divisible
 
 If you've earned BOOTY 🍑 on [SPANK.live](https://spank.live), you essentially have ETH as BOOTY 🍑 gets converted to ETH upon withdrawal. Now that you have ETH, you will want to send it to a [wallet](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/) of your choice to store it and use it on the network. Wallets setup accounts for you which are randomly generated 42 character long addresses starting with 0x. Accounts allow you to store and use ETH by generating [transactions](https://docs.ethhub.io/using-ethereum/transactions/) on the Ethereum network. 
 
-!!! note
+!!! important
     _Never use SpankPay as your main Ethereum wallet!_
 
 We recommend first moving your ETH to the [MetaMask wallet](https://metamask.io/). MetaMask is a browser extension that allows you to interact with Ethereum [dapps](https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/) inside of Chrome, Brave, Firefox or Opera.
