@@ -21,7 +21,7 @@
 
 **Current Period**: 11
 
-**Period End**: 08/01/2019 07:50:52am EDT
+**Period End**: 08/31/2019 07:52:01am EDT
 
 
 [1]: https://www.youtube.com/watch?v=MNbfdoSXTHE&t
