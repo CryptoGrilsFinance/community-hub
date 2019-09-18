@@ -60,14 +60,14 @@ spankpay.show({
 
 
 !!! info
-    **Want more control?** SpankPay comes with a [complete JavaScript API](spankpay-apis.md) to give you full control of the payment process.
+    **Want more control?** SpankPay comes with a [complete JavaScript API](api-reference.md) to give you full control of the payment process.
 
 #### 3. Generate an API key and write a Webhook endpoint
 
 After you've evaluated SpankPay and would like to fully integrate it with your site, you will need to sign up for an account, create testing + production API keys, and implement a webhook endpoint which SpankPay will use to notify your application on a successful payment.
 
 !!! info
-    This is covered in detail in [Webhook Callbacks](spankpay-apis.md#webhook-callbacks).
+    This is covered in detail in [Webhook Callbacks](api-reference.md#webhook-callbacks).
 
 ## Integrating SpankPay
 
@@ -85,11 +85,11 @@ Or via `npm`:
 $ npm install --save spankpay
 ```
 
-See [SpankPay APIs](spankpay-apis.md) for complete API documentation for the `spankpay.js` library.
+See [SpankPay APIs](api-reference.md) for complete API documentation for the `spankpay.js` library.
 
 ### 2. Create an Invoice
 
-In SpankPay, an `Invoice` is used to request payment from a user. Invoices can be created through either a [SpankPay Button](spankpay-apis.md#creating-a-purchase-with-a-button).
+In SpankPay, an `Invoice` is used to request payment from a user. Invoices can be created through either a [SpankPay Button](api-reference.md#creating-a-purchase-with-a-button).
 
 ```markup
 <button
@@ -105,7 +105,7 @@ In SpankPay, an `Invoice` is used to request payment from a user. Invoices can b
 
 Which will show the SpankPay payment page when the _Pay with SpankPay!_ button is clicked, and call the `onSpankPayPayment` callback once the payment has been completed and the webhook callback has been called.
 
-Or via the [`spankpay.show(...)` method](spankpay-apis.md#creating-an-invoice-with-the-spankpay-javascript-api):
+Or via the [`spankpay.show(...)` method](api-reference.md#creating-an-invoice-with-the-spankpay-javascript-api):
 
 ```javascript
 const { spankpay } = require('spankpay')
@@ -122,11 +122,11 @@ spankpay.show({
 })
 ```
 
-And For a complete description of each of these methods, including their options, see the [Invoice API](spankpay-apis.md#invoice).
+And For a complete description of each of these methods, including their options, see the [Invoice API](api-reference.md#invoice).
 
 ### 3. Implement a Webhook Callback URL
 
-When SpankPay receives confirmation of a user's payment, it will call the [`callback` webhook](spankpay-apis.md#webhook-callbacks) URL with a `Payment` to notify your application that the payment was completed successfully.
+When SpankPay receives confirmation of a user's payment, it will call the [`callback` webhook](api-reference.md#webhook-callbacks) URL with a `Payment` to notify your application that the payment was completed successfully.
 
 ``` json
 POST /quickstart/callback
@@ -160,8 +160,8 @@ X-SpankPay-Signature: t=1551389518&s=b613679a0814d9ec…
 
 For more, see:
 
-* [Implementing Webhooks](spankpay-apis.md#webhook-callbacks)
-* [The Payment object](spankpay-apis.md#payment)
+* [Implementing Webhooks](api-reference.md#webhook-callbacks)
+* [The Payment object](api-reference.md#payment)
 
 ### **4. Testing Your Integration**
 
@@ -189,7 +189,7 @@ We recommend using the testing key in your development and staging environments.
 
 #### Testing Webhooks
 
-For more details on effectively testing webhooks during development, see: [Testing Webhooks](spankpay-apis.md#testing-webhooks).
+For more details on effectively testing webhooks during development, see: [Testing Webhooks](api-reference.md#testing-webhooks).
 
 #### 
 

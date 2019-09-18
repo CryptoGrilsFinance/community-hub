@@ -7,8 +7,8 @@ nav:
     - Platform:
       - SpankBank: 'platform/spankbank/spankbank.md'
       - SpankPay:
-        - Quickstart: 'platform/spankpay/spankpay.md'
-        - SpankPay API Reference: 'platform/spankpay/spankpay-apis.md'
+        - Quickstart: 'platform/spankpay/quickstart.md'
+        - SpankPay API Reference: 'platform/spankpay/api-reference.md'
       - SPANK.live: 'platform/spanklive/spanklive.md'
       - SpankClips: 'platform/spankclips/spankclips.md'
     - Crypto Resources:

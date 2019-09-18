@@ -47,7 +47,11 @@ An Invoice is a request for a payment. When created with the Button API or the J
     <tr>
       <td style="text-align:right"><code>description</code>
       </td>
-      <td style="text-align:left">A description of the goods / services within the invoice.</td>
+      <td style="text-align:left">
+        A description of the goods / services within the invoice.
+        <p></p>
+        <p>Optional (but recommended).</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:right"><code>acceptedCurrencies</code>
@@ -143,9 +147,9 @@ function onSpankPayPayment(payment) {
 
 See also:
 
-* [Invoice parameters](spankpay-apis.md#purchase)
-* [`payment` Event](spankpay-apis.md#payment-event)
-* [Webhook Callbacks](spankpay-apis.md#webhook-callbacks)
+* [Invoice parameters](api-reference.md#purchase)
+* [`payment` Event](api-reference.md#payment-event)
+* [Webhook Callbacks](api-reference.md#webhook-callbacks)
 
 ### Creating an Invoice with the SpankPay JavaScript API
 
@@ -182,9 +186,9 @@ frame.on('close', () => {
 
 See also:
 
-* [Invoice parameters](spankpay-apis.md#purchase)
-* [`payment` Event](spankpay-apis.md#payment-event)
-* [Webhook Callbacks](spankpay-apis.md#webhook-callbacks)
+* [Invoice parameters](api-reference.md#purchase)
+* [`payment` Event](api-reference.md#payment-event)
+* [Webhook Callbacks](api-reference.md#webhook-callbacks)
 
 ### Payment Frame Events
 
@@ -200,13 +204,13 @@ spankpay.on('payment', payment => { ... })
 | ---: | :--- |
 | `open` | Triggered when the frame is opened. |
 | `close` | Triggered when the frame is closed. |
-| `payment` | Triggered when a payment is received, after the `callback` URL has accepted the payment. See: [`payment` Event](spankpay-apis.md#payment-event). |
+| `payment` | Triggered when a payment is received, after the `callback` URL has accepted the payment. See: [`payment` Event](api-reference.md#payment-event). |
 
 ### `payment` Event
 
 The `payment` event will be triggered when a payment has been received and the `callback` url has accepted or rejected the payment.
 
-The `payment`  argument will be a [Payment object](spankpay-apis.md#payment), and the `status` should be checked to ensure the payment has succeeded. Note, however, that the payment will only fail if the `callback` rejects the payment \(see: [Webhook Expected Response](spankpay-apis.md#expected-response)\).
+The `payment`  argument will be a [Payment object](api-reference.md#payment), and the `status` should be checked to ensure the payment has succeeded. Note, however, that the payment will only fail if the `callback` rejects the payment \(see: [Webhook Expected Response](api-reference.md#expected-response)\).
 
 For example:
 
@@ -223,7 +227,7 @@ function onPayment(payment) {
 
 ## Payment
 
-A payment is created when SpankPay receives a user's payment in response to an [Invoice](spankpay-apis.md#invoice).
+A payment is created when SpankPay receives a user's payment in response to an [Invoice](api-reference.md#invoice).
 
 <table>
   <thead>
@@ -401,7 +405,7 @@ A payment is created when SpankPay receives a user's payment in response to an [
 
 SpankPay will POST a message to your application server when it receives a payment, and the payment will be considered successful once it receives a response containing `{"received": true}`.
 
-The `callback` URL is provided when the [Invoice](spankpay-apis.md#invoice) is created, and we recommend including some metadata in the URL which your application can use to credit the appropriate order.
+The `callback` URL is provided when the [Invoice](api-reference.md#invoice) is created, and we recommend including some metadata in the URL which your application can use to credit the appropriate order.
 
 For example, if you assign each order an ID, the `callback` URL might be `https://your-site.com/api/spankpay/callback?order-id=sc696969`.
 
@@ -430,7 +434,7 @@ X-SpankPay-Signature: t=1551389518&s=b613679a0814d9ec…
 }
 ```
 
-The `type` field will always be `"payment"`, although there may be other types in the future. The rest of the body will be a [Payment object](spankpay-apis.md#payment).
+The `type` field will always be `"payment"`, although there may be other types in the future. The rest of the body will be a [Payment object](api-reference.md#payment).
 
 Note: the `Content-Type` will be `text/plain` instead of `application/json` as might be expected. This is to ensure that web frameworks like Express do not attempt to parse the request body as JSON, and instead make the raw string available to the request handler so it can more easy check the signature.
 
