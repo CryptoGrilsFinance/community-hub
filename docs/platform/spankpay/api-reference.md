@@ -94,7 +94,9 @@ An Invoice is a request for a payment. When created with the Button API or the J
       </td>
     </tr>
   </tbody>
-</table>### Input Currency
+</table>
+
+### Input Currency
 
 The Input Currency for an Invoice is the currency sent by the user.
 
@@ -105,6 +107,7 @@ Currently valid input currencies:
 | `BTC` | Bitcoin |
 | `ETH` | Ethereum |
 | `LTC` | Litecoin |
+| `USDC` | USD Coin |
 
 ### Output Currencies
 
