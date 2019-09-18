@@ -6,7 +6,9 @@ nav:
     - Home: 'index.md'
     - Platform:
       - SpankBank: 'platform/spankbank/spankbank.md'
-      - SpankPay: 'platform/spankpay/spankpay.md'
+      - SpankPay:
+        - Quickstart: 'platform/spankpay/spankpay.md'
+        - SpankPay API Reference: 'platform/spankpay/spankpay-apis.md'
       - SPANK.live: 'platform/spanklive/spanklive.md'
       - SpankClips: 'platform/spankclips/spankclips.md'
     - Crypto Resources:
@@ -26,6 +28,7 @@ markdown_extensions:
   - admonition
   - codehilite:
       linenums: true
+  - pymdownx.superfences
 extra:
   social:
     - type: 'github'
