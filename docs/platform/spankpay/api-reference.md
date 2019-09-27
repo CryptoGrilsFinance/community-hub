@@ -610,7 +610,7 @@ function shorten(s, len) {
 
 function signSpankPayData(secret, data, t) {
     if (t === undefined)
-      t = parseInt(Date.now())
+      t = parseInt(Date.now() / 1000)
     const hash = crypto.createHmac('sha256', secret)
     hash.update(`${t}.${data}`)
     return `t=${t}&s=${hash.digest('hex')}`
