@@ -83,7 +83,7 @@ ___
 
 ## **The SpankChain Platform**
 
-[<h4 style="color:#ff3b81;">SpankPay</h4>](https://merchant.spankchain.com/)
+[<h4 style="color:#ff3b81;">SpankPay</h4>](https://dashboard.spankpay.com/)
 **The Payment Solution for the Online Adult Industry**
 
 SpankPay is the new standard in crypto-payments for the online adult entertainment industry. By leveraging the power of blockchain, SpankPay offers a simple, seamless, low-cost way for users to consume adult content online.
